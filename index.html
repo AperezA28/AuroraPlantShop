@@ -28,7 +28,7 @@
 
     <nav class="navbar navbar-expand-lg p-3" id="nav">
         <div class="container-fluid">
-          <img height="150" width="150" src="img/logo.jpg" alt="logo">
+          <img height="150" width="150" src="img/logo.png" alt="logo">
           <a class="navbar-brand" href="index.html">AURORA</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -150,18 +150,29 @@
         </div>   
     </div>
 </section>
-                        <!-- SECCION PRONOSTICO DEL CLIMA FENTCH-->
-                       <section>
-                          <div class="container w-50 m-auto text-center " id="equipo" >
-                            <p>
-                              Aqui va el pronostico del clima 
-                            </p>
 
-                            <img id="img-equipo" src="https://img.freepik.com/vector-premium/interfaz-aplicacion-pronostico-tiempo-widget-vector_8071-6397.jpg?w=2000" alt="" >
+
+                        <!-- SECCION PRONOSTICO DEL CLIMA FETCH-->
+                        <section>
+                          <div class="mb-3" style="display: flex; justify-content: center;" >
+                            <input type="text" class="w-5 fs-5" id="search" placeholder="ciudad..." >
+                            <input type="button" class="btn btn-primary w-5 fs-5" id="searchButton" value="buscar">
                           </div>
-                      </section>
-
-                        <!-- SECCION ACERCA DE NOSOTROS-->
+                          
+                            <div class="container w-50 m-auto text-center " id="equipo" style="display: flex; justify-content: center;" >
+                              <div id='weatherContainer' >
+                                <div id="max"></div>
+                                <div id="min"></div>
+                                <div id="name" style="margin-bottom: 15px; color: white;"></div>
+                                <div id="country"></div>
+                                <img className="iconoClima" alt="">
+                              </div>
+                            </div>
+                        </section>
+  
+  
+  
+                          <!-- SECCION ACERCA DE NOSOTROS-->
 
 
 <section>
@@ -268,5 +279,6 @@
     <script src="scripts/array.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="scripts/alertas.js"></script>
+    <script src="scripts/weatherFetch.js"></script>
   </body>
 </html>
