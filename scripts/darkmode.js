@@ -17,4 +17,8 @@ btnSwitch.addEventListener('click', () => {
 		localStorage.setItem("darkMode", "false");
 	} else localStorage.setItem("darkMode", "true");
 
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> c84ae9b97863d4019f228c0c36f1f8d4bca95ed7
