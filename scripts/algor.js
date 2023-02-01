@@ -11,7 +11,7 @@ function capturar() {
       alert("Debes ingresar tu nombre");
       document.getElementById("celClint").focus();
     } else {
-      console.log(clientMail + " " + clientNom);
+      
       document.getElementById("email").value="";
       document.getElementById("name").value="";
       document.getElementById("name").focus();
