@@ -15,6 +15,6 @@ btnSwitch.addEventListener('click', () => {
 
 	if (darkMode === "true") {
 		localStorage.setItem("darkMode", "false");
-	} else localStorage.setItem("darkMode", "true");s
+	} else localStorage.setItem("darkMode", "true");
 
-});s
+});
