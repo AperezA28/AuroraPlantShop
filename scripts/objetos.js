@@ -25,6 +25,6 @@ function capturar (){
 var baseDatos = [];
 function agregar() {
 	baseDatos.push(nuevoSujeto);
-	console.log(baseDatos);
+	
 
 }
