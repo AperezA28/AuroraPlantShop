@@ -5,7 +5,12 @@ Para este proyecto mantuve el mismo sitio que elabore para el modulo de Desarrol
 
  1.- A pesar de que en la barra de navegacion puedas enlasarte a otras paginas del sitio, solo en el Index.html y Tienda.html se agregaron elementos de JS para el funcionamiento, esta pensado mas adelante completar la adaptacion al resto de las paginas.
  
- 2.- Las funciones del LocalStorage las agrege en la funcionalidad del DarkMode para que cuando se actualice la pagina mantenga la claridad u obscuridad que el usuario haya seleccionado.
+ 2.- Las funciones del LocalStorage las agrege en la funcionalidad del DarkMode para que cuando se actualice la pagina mantenga la claridad u obscuridad que el usuario haya seleccionado. ![image](https://user-images.githubusercontent.com/113397309/216217247-ec54144b-be93-4f7c-ad8e-06cb67cf2464.png)
+ ![image](https://user-images.githubusercontent.com/113397309/216217294-b57f347d-15a8-453d-9cf2-81ed845efb55.png)
+
+
+
+
  
  3.- Utilice la libreria Sweet Alert para que al entrar al Sitio Web te pida seleccionar tu estado de la republica, principalmente para la funcionalidad de la Api.
  
